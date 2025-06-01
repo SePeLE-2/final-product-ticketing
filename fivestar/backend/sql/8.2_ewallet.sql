@@ -13,7 +13,7 @@ select * from public.payment_ewallet;
 --
 
 -- Clear existing data (optional)
-TRUNCATE TABLE public.payment_ewallet RESTART IDENTITY CASCADE;
+-- TRUNCATE TABLE public.payment_ewallet RESTART IDENTITY CASCADE;
 
 -- Insert sample credit card payments
 INSERT INTO public.payment_ewallet (

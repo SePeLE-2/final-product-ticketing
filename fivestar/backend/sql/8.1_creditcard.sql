@@ -13,7 +13,7 @@ select * from public.payment_creditcard;
 --
 
 -- Clear existing data (optional)
-TRUNCATE TABLE public.payment_creditcard RESTART IDENTITY CASCADE;
+-- TRUNCATE TABLE public.payment_creditcard RESTART IDENTITY CASCADE;
 
 -- Insert sample credit card payments
 INSERT INTO public.payment_creditcard (
