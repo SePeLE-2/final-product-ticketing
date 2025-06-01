@@ -1,11 +1,11 @@
 /*
-	Generated on 09/05/2025 by UI Generator PRICES-IDE
-	https://amanah.cs.ui.ac.id/research/ifml-regen
-	version 3.9.0
+  Generated on 09/05/2025 by UI Generator PRICES-IDE
+  https://amanah.cs.ui.ac.id/research/ifml-regen
+  version 3.9.0
 */
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3001';
+const API_URL = environment.rootApi;
 
 const saveReport = async (data) => {
   try {
@@ -19,7 +19,7 @@ const saveReport = async (data) => {
     // For development/mockup, generate a response
     const now = new Date();
     const reportId = Math.floor(Math.random() * 1000) + 10;
-    
+
     return {
       data: {
         data: {
